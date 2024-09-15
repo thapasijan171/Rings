@@ -12,7 +12,6 @@ import {
     GroundPlugin,
     FrameFadePlugin,
     DiamondPlugin,
-    // DepthOfFieldPlugin,
     BufferGeometry,
     MeshStandardMaterial2,
     BloomPlugin, 
@@ -212,9 +211,7 @@ async function setupViewer(){
 
     function setupScrollAnimation(){
         document.body.style.overflowY = "scroll"
-        // document.body.removeChild(loaderElement)
 
-        // customScrollingEnabled = true
 
         const tl = gsap.timeline({ default: {ease: 'none'}})
 
@@ -695,8 +692,6 @@ async function setupViewer(){
 }
 
 
-
-/////////////////////////////////////////////////////////////////////////
 ///// BACKGROUND MUSIC
 let firstPlay = true
 let audio = new Audio();
