@@ -1,40 +1,35 @@
 {
-  "name": "rings",
-  "version": "1.0.0",
-  "description": "JavaScript and TypeScript example starter project",
-  "main": "index.html",
+  "name": "tiktok-c-nextjs13",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --no-minify --public-url ./",
-    "deploy": "vercel --prod"
-  },
-  "devDependencies": {
-    "@types/three": "^0.139.0",
-    "@types/webgi": "https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-types-0.4.6.tgz",
-    "parcel-bundler": "^1.6.1",
-    "parcel-plugin-static-files-copy": "^2.6.0",
-    "sass": "^1.54.0",
-    "typescript": "4.4.4",
-    "webgi": "https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-0.4.6.tgz"
-  },
-  "resolutions": {
-    "@babel/preset-env": "7.13.8"
-  },
-  "keywords": [
-    "typescript",
-    "javascript"
-  ],
-  "staticFiles": {
-    "staticPath": [
-      {
-        "staticPath": "assets",
-        "staticOutDir": "assets"
-      }
-    ]
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@studio-freight/lenis": "^0.2.24",
-    "gsap": "^3.10.4",
-    "vercel": "^27.2.0"
+    "@types/node": "20.5.1",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "appwrite": "^11.0.1",
+    "autoprefixer": "10.4.15",
+    "debounce": "^1.2.1",
+    "image-js": "^0.35.4",
+    "moment": "^2.29.4",
+    "next": "13.4.19",
+    "postcss": "8.4.28",
+    "react": "18.2.0",
+    "react-advanced-cropper": "^0.19.3",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/debounce": "^1.2.1",
+    "canvas": "^2.11.2",
+    "raw-loader": "^4.0.2"
   }
 }
